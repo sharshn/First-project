@@ -1,0 +1,2318 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+a{
+  text-decoration: none;
+  list-style: none;
+}
+
+.container{
+  background: url("/assets/images/Rectangle\ 1441\ \(1\).png") center / cover;
+  width: 1519px;
+  height: 1084px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_row{
+  display: flex;
+  width: 1240px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_row ul{
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.main_row h1{
+  color: white;
+}
+
+.row ul li a {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 140px;
+  align-items: center;
+  height: 100px;
+  color: white;
+}
+.row img{
+  align-items: center;
+}
+
+.burger_icon{
+  width: 30px;
+ 
+}
+.burger_icon div{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  border-radius: 2px;
+  margin: 3px 0;
+  display: none;
+}
+
+
+
+
+.main_text{
+  width: 1519px;
+  height: 984px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.first_main_text h1{
+  color: #FFF;
+  text-align: center;
+  font-size: 80px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -0.8px;
+  text-transform: capitalize;
+  width: 880px;
+  margin: 50px 0;
+}
+  
+.for_text{
+  text-align: center;
+}
+
+
+.second_text p{
+  width: 866px;
+  /* width: 606px */
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 20;
+  color: #FFF;
+  text-align: center;
+  justify-content: center;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: center;
+}
+
+.main_input{
+margin: 50px 250px;
+}
+
+
+.main_input input{
+  display: flex;
+  width: 344px;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 42px;
+  border: 0.862px solid rgba(255, 255, 255, 0.60);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  position: absolute;
+  padding-left: 50px 0 0 0;
+
+}
+
+.main_input img{
+ position: relative;
+ left: 136px;
+ width: 30px;
+ height: 30px;
+ top: 3px;
+}
+
+
+
+
+
+
+.main_colona{
+  width: 1519px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.first_colona h1{ 
+  width: 200px;
+  color: #1E1E1E;
+font-size: 42px;
+font-family: Gilroy-Bold;
+font-style: normal;
+font-weight: 400;
+line-height: normal;align-items: center;
+align-items: center;
+}
+
+.second_colona{
+  width: 200px;
+  height: 200px;
+}
+
+.second_colona{
+  color: #1E1E1E;
+font-size: 16px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 185%;
+}
+
+.inside_second_colona{
+  display: flex;
+}  
+
+.inside_second_colona p{
+  color: #E58411;
+font-size: 14px;
+font-family: Gilroy-Medium;
+font-style: normal;
+font-weight: 400;
+line-height: 185%;
+}
+
+
+
+
+.third_colona{
+  width: 200px;
+  height: 200px;
+  color: #1E1E1E;
+font-size: 16px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 185%;
+}
+
+.inside_third_colona{
+  display: flex;
+}  
+
+.inside_third_colona p{
+  color: #E58411;
+font-size: 14px;
+font-family: Gilroy-Medium;
+font-style: normal;
+font-weight: 400;
+line-height: 185%;
+}
+
+
+.fourth_colona{
+  width: 200px;
+  height: 200px;
+}
+
+.fourth_colona {
+  color: #1E1E1E;
+font-size: 16px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 185%;
+}
+
+.inside_fourth_colona{
+  display: flex;
+}  
+
+.inside_fourth_colona p{
+  color: #E58411;
+font-size: 14px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 185%;
+}
+
+
+
+
+.EXPERIANCES{
+  width: 1519px;
+  height: 600px;
+  display: flex;
+  margin: auto;
+}
+
+.images{
+  display: flex;
+  align-items: center;
+}
+
+
+.for_all_text{
+  display: flex;
+  align-items: center;
+}
+
+.for_textt{
+  text-align: left;
+  margin-left: 150px;
+}
+
+.for_textt h5{
+  color: #E58411;
+  font-size: 18px;
+  font-family: Gilroy-SemiBold;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.for_textt h1{
+  width: 413px;
+  height: 100px;
+  color: #1E1E1E;
+  font-size: 42px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize; 
+  margin: 10px 0;
+}
+
+.for_textt p {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #1E1E1E;
+  font-size: 18px;
+  font-family: Gilroy-Regular;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+  margin: 20px 0;
+}
+
+.inside_fourth_colonaa p{
+  color: #E58411;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+}
+
+
+.fourth_main_banner{
+  width: 1519px;
+  height: 700px;
+  display: flex;
+  text-align: center; 
+  margin: auto;
+}
+
+.banner_text{
+  display: flex;
+  align-items: center;
+}
+
+
+.banner_for_text{
+  text-align: left;
+  margin-left: 50px;
+}
+
+.banner_for_text h5{
+  color: #E58411;
+  font-size: 18px;
+  font-family: Gilroy-SemiBold;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.banner_for_text h1{
+  width: 413px;
+  height: 100px;
+  color: #1E1E1E;
+  font-size: 42px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize; 
+  margin: 10px 0;
+}
+
+.banner_for_text p {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #1E1E1E;
+  font-size: 18px;
+  font-family: Gilroy-Regular;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+  margin: 20px 0;
+}
+
+.inside_fourth_colona p{
+  color: #E58411;
+  font-size: 14px;
+  font-family: Gilroy-Medium;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+  width: 70px;
+}
+
+.banner_pictures{
+  display: flex;
+  margin: 0 170px;
+}
+
+.banner_pictures_main{
+  padding: 50px;
+}
+
+.banner_for_third_image img{
+  margin-top: 150px;
+}
+
+.banner_for_first_image img{
+  padding: 0 0 40px 0;
+}
+
+.main_footer{
+  width: 1519px;
+  height: 500px;
+  margin: auto;
+  background: #F7F7F7;
+}
+
+.main_main_footer{
+  width: 1400px ;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.first_main_footer h1{
+  color: #1E1E1E;
+  font-family: Gilroy-Bold;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+}
+
+.first_main_footer p{
+  display: flex;
+  width: 293px;
+  flex-direction: column;
+  color: #1E1E1E;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+
+.third_footer img{
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin: 0;
+}
+
+.for_main_headlines li a{
+  display: flex;
+  width: 78.591px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #F6973F;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.232px; 
+}
+
+.last_footer{
+  display: flex;
+  width: 1400px;
+  height: 50px;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+
+.last_second_footer{
+  display: flex;
+}
+
+.last_second_footer p{
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+
+@media (max-width: 1024px){
+
+  .container{
+    background: url("/assets/images/Rectangle\ 1441\ \(1\).png") center / cover;
+    width: 1024px;
+    height: 984px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main_row{
+    display: flex;
+    width: 1024px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main_row ul{
+    display: flex;
+    align-items: center;
+    color: inherit;
+  }
+  .main_row h1{
+    color: white;
+    margin-left: 30px;
+  }
+  .row ul li a {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 140px;
+    align-items: center;
+    height: 100px;
+    color: white;
+  }
+  .row img{
+    align-items: center;
+  }
+  .icon img{
+    margin-right: 30px;
+  }
+  .main_text{
+    width: 1024px;
+    height: 584px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .first_main_text h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%;
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+    width: 780px;
+    margin: 20px 0;
+  }
+  .for_text{
+    text-align: center; 
+  }
+  .second_text p{
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 20;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .main_input{
+    margin: 120px 215px;
+  }
+  .main_input input{
+    display: flex;
+    width: 344px;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 42px;
+    border: 0.862px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    position: absolute;
+    padding-left: 10px 0 0 0;
+  }
+  .main_input img{
+    position: relative;
+    left: 153px;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+   }
+   .main_colona{
+    width: 1024px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+  }
+  .EXPERIANCES{
+    width: 1024px;
+    height: 1000px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .images img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1015px;
+    height: 500px;
+    margin: auto;
+  }
+  .for_all_text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .for_textt{
+    text-align: center;
+    width: 60%;
+    height: 330px;
+    margin: auto;
+  }
+  .for_textt h5{
+    color: #E58411;
+    font-size: 18px;
+    font-family: Gilroy-SemiBold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+  }
+  .for_textt h1{
+    width: 413px;
+    height: 100px;
+    color: #1E1E1E;
+    font-size: 42px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize; 
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .fourth_main_banner{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .banner_text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .banner_for_text{
+    text-align: center;
+    width: 100%;
+    height: 330px;
+    margin: auto;
+    
+  }
+  .banner_for_text h5{
+    color: #E58411;
+    font-size: 18px;
+    font-family: Gilroy-SemiBold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+  }
+  .banner_for_text h1{
+    width: 413px;
+    height: 100px;
+    color: #1E1E1E;
+    font-size: 42px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize; 
+    text-align: center;
+  }
+  .banner_for_text p {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%;
+    margin: 20px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+   .inside_fourth_colona p{
+    color: #E58411;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%;
+  }
+
+  .inside_fourth_colona img{
+    width: 50px;
+
+  }
+  .banner_pictures{
+    display: flex;
+  }
+ 
+  .banner_for_third_image img{
+    margin: 150px 20px 0 0;
+  }
+  
+  .banner_for_first_image img{
+    padding: 0 0 20px 0;
+  }
+
+
+  .main_footer{
+    width: 1024px;
+    height: 400px;
+    margin: auto;
+    background: #F7F7F7;
+
+  }
+  .main_main_footer{
+    width: 100% ;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .last_footer{
+    display: flex;
+    width: 768px;
+    height: 50px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+  }
+  
+  
+  .last_second_footer{
+    display: flex;
+  }
+  
+  .last_second_footer p{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+  }
+}
+
+
+/* 728 */
+
+
+@media (max-width: 768px){
+
+  .container{
+    background: url("/assets/images/Rectangle\ 1441\ \(1\).png") center / cover;
+    width: 768px;
+    height: 984px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main_row{
+    display: flex;
+    width: 768px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main_row ul{
+    display: flex;
+    align-items: center;
+    color: inherit;
+  }
+  .row ul li a {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 120px;
+    align-items: center;
+    height: 100px;
+    color: white;
+  }
+  .row img{
+    align-items: center;
+  }
+  .icon img{
+    margin-right: 30px;
+  }
+  .main_text{
+    width: 768px;
+    height: 584px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .first_main_text h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%;
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+    width: 580px;
+    margin: 50px 0;
+    
+  }
+  .for_text{
+    text-align: center;
+    
+  }
+  
+  .second_text p{
+    width: 566px;
+    width: 606px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 20;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: center;
+    
+  }
+  .main_input{
+    margin: 150px 130px;
+ }
+ 
+ 
+ .main_input input{
+   display: flex;
+   width: 344px;
+   padding: 10px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 42px;
+   border: 0.862px solid rgba(255, 255, 255, 0.60);
+   background: rgba(255, 255, 255, 0.15);
+   backdrop-filter: blur(4px);
+   position: absolute;
+   padding-left: 10px;
+ }
+ .main_input img{
+  position: relative;
+  left: 163px;
+  width: 30px;
+  height: 30px;
+  top: 3px;
+ }
+ .main_colona{
+  width: 568px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.first_colona h1{
+  display: flex;
+  align-items: center;
+  width: 400px;
+  color: #1E1E1E;
+  font-size: 42px;
+  font-family: Gilroy-Bold;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;align-items: center;
+  margin: auto;
+}
+.EXPERIANCES{
+  width: 768px;
+  height: 1000px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+  
+.images img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 760px;
+  height: 500px;
+  margin: auto;
+}
+
+.fourth_main_banner{
+  width: 768px;
+  height: 1000px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner_text{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+}
+
+.banner_for_text{
+  text-align: center;
+  width: 100%;
+  height: 350px;
+  margin: auto;
+}
+.banner_for_text h5{
+  color: #E58411;
+  font-size: 18px;
+  font-family: Gilroy-SemiBold;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.15px;
+  text-transform: uppercase;
+  text-align: center;
+} 
+.banner_for_text h1{
+  width: 513px;
+  height: 100px;
+  color: #1E1E1E;
+  font-size: 42px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize; 
+  text-align: center;
+}
+.banner_for_text p {
+  display: flex;
+}
+
+
+.main_footer{
+  width: 758px;
+  height: 400px;
+  margin: auto;
+  background: #F7F7F7;
+}
+}
+/*
+.main_main_footer{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+
+.first_main_footer h1{
+  color: #1E1E1E;
+  font-family: Gilroy-Bold;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+}
+
+.first_main_footer p{
+  display: flex;
+  width: 293px;
+  flex-direction: column;
+  color: #1E1E1E;
+  font-family: Gilroy-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.first_footer{
+ 
+}
+
+
+.main_footer{
+  width: 768px;
+  height: 500px;
+  margin: auto;
+}
+
+.third_footer img{
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin: 0;
+}
+
+.for_main_headlines li a{
+  display: flex;
+  width: 78.591px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #F6973F;
+  font-family: DM Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.232px; 
+}
+
+
+
+.last_second_footer{
+  display: flex;
+}
+
+.last_second_footer p{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+  
+  
+  .main_main_footer{
+    width: 768px ;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .first_main_footer h1{
+    color: #1E1E1E;
+    font-family: Gilroy-Bold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+  }
+  
+  .first_main_footer p{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    color: #1E1E1E;
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  
+  .third_footer img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .for_main_headlines li a{
+    display: flex;
+    width: 78.591px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #F6973F;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.232px; 
+  }
+  
+  .last_footer{
+    display: flex;
+    width: 768px;
+    height: 50px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+  }
+  
+  
+  .last_second_footer{
+    display: flex;
+  }
+  
+  .last_second_footer p{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+  };
+}
+ */
+
+ @media (max-width:425px){ 
+ 
+ 
+  .container{ 
+    background: url("/assets/images/Rectangle\ 1441\ \(1\).png") center /cover; 
+    width: 425px; 
+    height: 484px; 
+    margin: auto; 
+    font-family: Arial, Helvetica, sans-serif; 
+  } 
+
+  .main_row{ 
+    display: flex; 
+    width: 425px; 
+    height: 60px;
+    margin: auto; 
+    align-items: center;  
+    justify-content: center;
+  } 
+
+  .main_row h1{
+    display: block;
+    width: 255px; 
+    margin: auto; 
+    align-items: flex-start;
+    
+  }
+
+  .main_row ul{ 
+    display: none
+  } 
+
+  .burger_icon div{
+    display: block;
+    
+  }
+
+  .icon{
+    margin: auto;
+  }
+
+  .main_text{ 
+    width: 425px; 
+    height: 384px; 
+    display: flex; 
+    justify-content: center; 
+    margin: auto; 
+    align-items: center;
+  } 
+
+  .first_main_text h1{ 
+    color: #FFF; 
+    text-align: center; 
+    font-size: 20px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-style: normal; 
+    font-weight: 100; 
+    letter-spacing: -0.8px; 
+    text-transform: capitalize; 
+    width: 100%; 
+    margin: 0px 0; 
+     
+  } 
+     
+  .for_text{ 
+    text-align: center; 
+  } 
+
+  .second_text p{ 
+    width: 425px; 
+    height: 50px;
+    display: flex; 
+    flex-direction: column; 
+    flex-shrink: 10; 
+    color: #FFF; 
+    text-align: center; 
+    justify-content: center; 
+    font-size: 14px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 160%; 
+  } 
+   
+  .main_input{ 
+     margin: 90px 70px; 
+  } 
+
+  .main_input input{ 
+    display: flex; 
+    width: 244px; 
+    padding: 10px 0; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-radius: 42px; 
+    border: 0.862px solid rgba(255, 255, 255, 0.60); 
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(4px); 
+    position: absolute; 
+    padding-left: 10px 0 0 0; 
+  } 
+
+  .main_input img{ 
+    position: relative; 
+    left: 83px; 
+    width: 30px; 
+    height: 30px; 
+    top: 3px; 
+   } 
+
+
+   .main_colona{ 
+    width: 425px; 
+    height: 600px; 
+    display: flex; 
+    align-items: center; 
+    margin: auto; 
+    flex-wrap: wrap; 
+  } 
+
+  .first_colona{
+    width: 425px;
+    margin: auto;
+  }
+
+  .first_colona h1{  
+    color: #1E1E1E; 
+    font-size: 42px; 
+    font-family: Gilroy-Bold; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: normal;align-items: center; 
+    align-items: center; 
+    height: 130px;
+    margin: auto;
+    } 
+      
+  .second_colona{  
+    width: 50%;
+    height: 200px; 
+    color: #1E1E1E; 
+    font-size: 12px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 185%; 
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 10px;
+  } 
+  .third_colona{ 
+    width: 50%;
+    height: 200px; 
+    color: #1E1E1E; 
+    font-size: 12px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 185%; 
+  } 
+
+
+  .inside_third_colona p{ 
+    color: #E58411; 
+    font-size: 12px; 
+    font-family: Gilroy-Medium; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 185%; 
+  } 
+
+  .fourth_colona { 
+    color: #1E1E1E; 
+    font-size: 12px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: 185%; 
+  } 
+
+
+  .EXPERIANCES{ 
+    width: 425px; 
+    height: 625px; 
+    display: flex; 
+    margin: auto; 
+    flex-wrap: wrap; 
+  } 
+  .images img{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 425px; 
+    height: 300px; 
+    margin: auto; 
+  } 
+  .for_all_text{ 
+    display: flex; 
+    align-items: center; 
+    height: 400px;
+    width: 425px;
+  } 
+   
+  .for_textt{ 
+    text-align: center;  
+    height: 330px; 
+    width: 425px;
+  } 
+  .for_textt h5{ 
+    color: #E58411; 
+    font-size: 12px; 
+    font-family: Gilroy-SemiBold; 
+    font-style: normal; 
+    font-weight: 200; 
+    line-height: normal; 
+    text-transform: uppercase; 
+  } 
+    
+  .for_textt h1{ 
+    width: 413px; 
+    height: 50px; 
+    color: #1E1E1E; 
+    font-size: 22px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: normal; 
+    text-transform: capitalize;  
+  } 
+
+
+
+
+
+  .fourth_main_banner{ 
+    width: 425px; 
+    display: flex; 
+    margin: auto; 
+    flex-wrap: wrap; 
+  } 
+
+
+  .banner_text{ 
+    display: flex; 
+    align-items: center; 
+    flex-wrap: wrap ;
+  } 
+   
+  .banner_for_text{ 
+    text-align: center;  
+    height: 330px; 
+    width: 425px;
+    
+  } 
+  .banner_for_text h5{ 
+    color: #E58411; 
+    font-size: 12px; 
+    font-family: Gilroy-SemiBold; 
+    font-style: normal; 
+    font-weight: 200; 
+    line-height: normal; 
+    text-transform: uppercase; 
+  } 
+    
+  .banner_for_text h1{ 
+    width: 413px; 
+    color: #1E1E1E; 
+    font-size: 22px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    line-height: normal; 
+    text-transform: capitalize;  
+  } 
+
+  .banner_for_text p { 
+    width: 420px;
+    display: flex; 
+    flex-direction: column; 
+    flex-shrink: 0; 
+    color: #1E1E1E; 
+    font-size: 16px; 
+    font-family: Gilroy-Regular; 
+    font-style: normal; 
+    font-weight: 200; 
+    line-height: 185%; 
+    text-align: center; 
+    align-items: center; 
+    justify-content: center; 
+  } 
+
+  .banner_for_first_image img{
+    width: 175px;
+  }
+   
+
+  .banner_for_second_image img{
+    width: 175px;
+    height: 270px;
+  }
+   
+  .banner_for_third_image img{ 
+     width: 175px;
+  } 
+  
+
+     
+  .main_footer{
+    width: 425px;
+    height: 400px;
+    margin: auto;
+    background: #F7F7F7;
+    flex-wrap: wrap;
+  }
+  
+  .main_main_footer{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .first_main_footer h1{
+    color: #1E1E1E;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: capitalize;
+  }
+  
+  .first_main_footer p{
+    display: flex;
+    flex-direction: column;
+    color: #1E1E1E;
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  .first_footer{
+    display: flex;
+    width: ;
+  }
+
+  
+  .third_footer img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .for_main_headlines li a{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #F6973F;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.232px; 
+  }
+  
+  .last_footer{
+    display: flex;
+    width: 425px;
+    height: 50px;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  
+  .last_second_footer{
+    display: flex;
+  }
+  
+  .last_second_footer p{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+  }
+
+}
+
+
+
+
+
+
+  @media (max-width:375px){ 
+ 
+ 
+    .container{ 
+      background: url("/assets/images/Rectangle\ 1441\ \(1\).png") center /cover; 
+      width: 375px; 
+      height: 484px; 
+      margin: auto; 
+      font-family: Arial, Helvetica, sans-serif; 
+    } 
+  
+    .main_row{ 
+      display: flex; 
+      width: 375px; 
+      height: 60px;
+      margin: auto; 
+      align-items: center;  
+      justify-content: center;
+    } 
+  
+    .main_row h1{
+      display: block;
+      width: 120px; 
+      margin: auto; 
+      align-items: flex-start;
+      
+    }
+  
+    .main_row ul{ 
+      display: none
+    } 
+  
+    .burger_icon div{
+      display: block;
+      
+    }
+  
+    .icon{
+      margin: auto;
+    }
+  
+    .main_text{ 
+      width: 375px; 
+      height: 384px; 
+      display: flex; 
+      justify-content: center; 
+      margin: auto; 
+      align-items: center;
+    } 
+  
+    .first_main_text h1{ 
+      color: #FFF; 
+      text-align: center; 
+      font-size: 16px; 
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+      font-style: normal; 
+      
+       
+    } 
+       
+    .for_text{ 
+      text-align: center; 
+    } 
+  
+    .second_text p{ 
+      width: 375px; 
+      height: 50px;
+      display: flex; 
+      flex-direction: column; 
+      flex-shrink: 10; 
+      color: #FFF; 
+      text-align: center; 
+      justify-content: center; 
+      font-size: 12px; 
+      margin: auto;
+    } 
+     
+    .main_input{ 
+       margin: 90px 70px; 
+    } 
+  
+    .main_input input{ 
+      display: flex; 
+      width: 144px; 
+      padding: 10px 0; 
+      justify-content: space-between; 
+      align-items: center; 
+      border-radius: 42px; 
+      border: 0.862px solid rgba(255, 255, 255, 0.60); 
+      background: rgba(255, 255, 255, 0.15); 
+      backdrop-filter: blur(4px); 
+      position: absolute; 
+      padding-left: 10px 0 0 0; 
+    } 
+  
+    .main_input img{ 
+      position: relative; 
+      left: 83px; 
+      width: 30px; 
+      height: 30px; 
+      top: 3px; 
+     } 
+  
+  
+     .main_colona{ 
+      width: 375px; 
+      height: 600px; 
+      display: flex; 
+      align-items: center; 
+      margin: auto; 
+      flex-wrap: wrap; 
+    } 
+  
+    .first_colona{
+      width: 375px;
+      margin: auto;
+    }
+  
+    .first_colona h1{  
+      color: #1E1E1E; 
+      font-size: 32px; 
+      font-family: Gilroy-Bold; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: normal;align-items: center; 
+      align-items: center; 
+      height: 130px;
+      } 
+        
+    .second_colona{  
+      width: 50%;
+      height: 200px; 
+      color: #1E1E1E; 
+      font-size: 12px; 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: 185%; 
+      align-items: center; 
+      justify-content: center; 
+      margin-left: 10px;
+    } 
+    .third_colona{ 
+      width: 50%;
+      height: 200px; 
+      color: #1E1E1E; 
+      font-size: 12px; 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: 185%; 
+    } 
+  
+  
+    .inside_third_colona p{ 
+      color: #E58411; 
+      font-size: 12px; 
+      font-family: Gilroy-Medium; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: 185%; 
+    } 
+  
+    .fourth_colona { 
+      color: #1E1E1E; 
+      font-size: 12px; 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: 185%; 
+    } 
+  
+  
+    .EXPERIANCES{ 
+      width: 375px; 
+      height: 625px; 
+      display: flex; 
+      margin: auto; 
+      flex-wrap: wrap; 
+    } 
+    .images img{ 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      width: 375px; 
+      height: 300px; 
+      margin: auto; 
+    } 
+    .for_all_text{ 
+      display: flex; 
+      align-items: center; 
+      height: 400px;
+      width: 375px;
+    } 
+     
+    .for_textt{ 
+      text-align: center;  
+      height: 330px; 
+      width: 375px;
+    } 
+    .for_textt h5{ 
+      color: #E58411; 
+      font-size: 12px; 
+      font-family: Gilroy-SemiBold; 
+      font-style: normal; 
+      font-weight: 200; 
+      line-height: normal; 
+      text-transform: uppercase; 
+    } 
+      
+    .for_textt h1{ 
+      width: 355px; 
+      height: 50px; 
+      color: #1E1E1E; 
+      font-size: 22px; 
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: normal; 
+      text-transform: capitalize;  
+    } 
+  
+  
+  
+  
+  
+    .fourth_main_banner{ 
+      width: 375px; 
+      display: flex; 
+      margin: auto; 
+      flex-wrap: wrap; 
+    } 
+  
+  
+    .banner_text{ 
+      display: flex; 
+      align-items: center; 
+      flex-wrap: wrap ;
+    } 
+     
+    .banner_for_text{ 
+      text-align: center;  
+      height: 330px; 
+      width: 375px;
+      
+    } 
+    .banner_for_text h5{ 
+      color: #E58411; 
+      font-size: 12px; 
+      font-family: Gilroy-SemiBold; 
+      font-style: normal; 
+      font-weight: 200; 
+      line-height: normal; 
+      text-transform: uppercase; 
+    } 
+      
+    .banner_for_text h1{ 
+      width: 373px; 
+      color: #1E1E1E; 
+      font-size: 22px; 
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+      font-style: normal; 
+      font-weight: 400; 
+      line-height: normal; 
+      text-transform: capitalize;  
+    } 
+  
+    .banner_for_text p { 
+      width: 370px;
+      display: flex; 
+      flex-direction: column; 
+      flex-shrink: 0; 
+      color: #1E1E1E; 
+      font-size: 16px; 
+      font-family: Gilroy-Regular; 
+      font-style: normal; 
+      font-weight: 200; 
+      line-height: 185%; 
+      text-align: center; 
+      align-items: center; 
+      justify-content: center; 
+    } 
+  
+    .banner_for_first_image img{
+      width: 175px;
+    }
+     
+  
+    .banner_for_second_image img{
+      width: 175px;
+      height: 270px;
+    }
+     
+    .banner_for_third_image img{ 
+       width: 175px;
+    } 
+    
+  
+       
+    .main_footer{
+      width: 375px;
+      height: 400px;
+      margin: auto;
+      background: #F7F7F7;
+      flex-wrap: wrap;
+    }
+    
+    .main_main_footer{
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .first_main_footer h1{
+      color: #1E1E1E;
+      font-family: Gilroy-Bold;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.28px;
+      text-transform: capitalize;
+    }
+    
+    .first_main_footer p{
+      display: flex;
+      flex-direction: column;
+      color: #1E1E1E;
+      font-family: Gilroy-Medium;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+    }
+  
+    .first_footer{
+      display: flex;
+    }
+  
+    
+    .third_footer img{
+      width: 20px;
+      height: 20px;
+      align-items: center;
+      margin: 0;
+    }
+    
+    .for_main_headlines li a{
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      color: #F6973F;
+      font-family: DM Sans;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.232px; 
+    }
+    
+    .last_footer{
+      display: flex;
+      width: 375px;
+      height: 50px;
+      justify-content: center;
+      margin: auto;
+    }
+    
+    
+    .last_second_footer{
+      display: flex;
+    }
+    
+    .last_second_footer p{
+      display: flex;
+      justify-content: center;
+      width: 150px;
+    }
+
+  }
+
+
+
+    @media (max-width:320px){ 
+ 
+ 
+      .container{ 
+        background: url("/assets/images/Rectangle\ 1441\ \(1\).png") center /cover; 
+        width: 320px; 
+        height: 484px; 
+        margin: auto; 
+        font-family: Arial, Helvetica, sans-serif; 
+      } 
+    
+      .main_row{ 
+        display: flex; 
+        width: 320px; 
+        height: 60px;
+        margin: auto; 
+        align-items: center;  
+        justify-content: center;
+      } 
+    
+      .main_row h1{
+        display: block;
+        width: 100px; 
+        margin: auto; 
+        align-items: flex-start;
+        
+      }
+    
+      .main_row ul{ 
+        display: none
+      } 
+    
+      .burger_icon div{
+        display: block;
+        
+      }
+    
+      .icon{
+        margin: auto;
+      }
+    
+      .main_text{ 
+        width: 320px; 
+        height: 384px; 
+        display: flex; 
+        justify-content: center; 
+        margin: auto; 
+        align-items: center;
+      } 
+    
+      .first_main_text h1{ 
+        color: #FFF; 
+        text-align: center; 
+        font-size: 16px; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-style: normal; 
+        
+         
+      } 
+         
+      .for_text{ 
+        text-align: center; 
+      } 
+    
+      .second_text p{ 
+        width: 320px; 
+        height: 50px;
+        display: flex; 
+        flex-direction: column; 
+        flex-shrink: 10; 
+        color: #FFF; 
+        text-align: center; 
+        justify-content: center; 
+        font-size: 12px; 
+        margin: auto;
+      } 
+       
+      .main_input{ 
+         margin: 90px 70px; 
+      } 
+    
+      .main_input input{ 
+        display: flex; 
+        width: 144px; 
+        padding: 10px 0; 
+        justify-content: space-between; 
+        align-items: center; 
+        border-radius: 42px; 
+        border: 0.862px solid rgba(255, 255, 255, 0.60); 
+        background: rgba(255, 255, 255, 0.15); 
+        backdrop-filter: blur(4px); 
+        position: absolute; 
+        padding-left: 10px 0 0 0; 
+      } 
+    
+      .main_input img{ 
+        position: relative; 
+        left: 83px; 
+        width: 30px; 
+        height: 30px; 
+        top: 3px; 
+       } 
+    
+    
+       .main_colona{ 
+        width: 320px; 
+        height: 800px; 
+        display: flex; 
+        align-items: center; 
+        margin: auto; 
+        flex-wrap: wrap; 
+      } 
+    
+      .first_colona{
+        width: 320px;
+        margin: auto;
+      }
+    
+      .first_colona h1{  
+        color: #1E1E1E; 
+        font-size: 32px; 
+        font-family: Gilroy-Bold; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: normal;align-items: center; 
+        align-items: center; 
+        height: 130px;
+        } 
+          
+      .second_colona{  
+        width: 50%;
+        height: 200px; 
+        color: #1E1E1E; 
+        font-size: 12px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: 185%; 
+        align-items: center; 
+        justify-content: center; 
+        margin-left: 10px;
+      } 
+      .third_colona{ 
+        width: 50%;
+        height: 200px; 
+        color: #1E1E1E; 
+        font-size: 12px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: 185%; 
+      } 
+    
+    
+      .inside_third_colona p{ 
+        color: #E58411; 
+        font-size: 12px; 
+        font-family: Gilroy-Medium; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: 185%; 
+      } 
+    
+      .fourth_colona { 
+        color: #1E1E1E; 
+        font-size: 12px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: 185%; 
+      } 
+    
+    
+      .EXPERIANCES{ 
+        width: 320px; 
+        height: 725px; 
+        display: flex; 
+        margin: auto; 
+        flex-wrap: wrap; 
+      } 
+      .images img{ 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        width: 320px; 
+        height: 300px; 
+        margin: auto; 
+      } 
+      .for_all_text{ 
+        display: flex; 
+        align-items: center; 
+        height: 400px;
+        width: 320px;
+      } 
+       
+      .for_textt{ 
+        text-align: center;  
+        height: 330px; 
+        width: 320px;
+      } 
+      .for_textt h5{ 
+        color: #E58411; 
+        font-size: 12px; 
+        font-family: Gilroy-SemiBold; 
+        font-style: normal; 
+        font-weight: 200; 
+        line-height: normal; 
+        text-transform: uppercase; 
+      } 
+        
+      .for_textt h1{ 
+        width: 320px; 
+        height: 50px; 
+        color: #1E1E1E; 
+        font-size: 22px; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: normal; 
+        text-transform: capitalize;  
+      } 
+    
+    
+    
+    
+    
+      .fourth_main_banner{ 
+        width: 320px; 
+        display: flex; 
+        margin: auto; 
+        flex-wrap: wrap; 
+      } 
+    
+    
+      .banner_text{ 
+        display: flex; 
+        align-items: center; 
+        flex-wrap: wrap ;
+      } 
+       
+      .banner_for_text{ 
+        text-align: center;  
+        height: 330px; 
+        width: 320px;
+        
+      } 
+      .banner_for_text h5{ 
+        color: #E58411; 
+        font-size: 12px; 
+        font-family: Gilroy-SemiBold; 
+        font-style: normal; 
+        font-weight: 200; 
+        line-height: normal; 
+        text-transform: uppercase; 
+      } 
+        
+      .banner_for_text h1{ 
+        width: 320px; 
+        color: #1E1E1E; 
+        font-size: 22px; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+        font-style: normal; 
+        font-weight: 400; 
+        line-height: normal; 
+        text-transform: capitalize;  
+      } 
+    
+      .banner_for_text p { 
+        width: 320px;
+        display: flex; 
+        flex-direction: column; 
+        flex-shrink: 0; 
+        color: #1E1E1E; 
+        font-size: 16px; 
+        font-family: Gilroy-Regular; 
+        font-style: normal; 
+        font-weight: 200; 
+        line-height: 185%; 
+        text-align: center; 
+        align-items: center; 
+        justify-content: center; 
+      } 
+    
+      .banner_for_first_image img{
+        width: 130px;
+      }
+       
+    
+      .banner_for_second_image img{
+        width: 130px;
+        height: 170px;
+      }
+       
+      .banner_for_third_image img{ 
+         width: 130px;
+      } 
+      
+    
+         
+      .main_footer{
+        width: 320px;
+        height: 400px;
+        margin: auto;
+        background: #F7F7F7;
+        flex-wrap: wrap;
+      }
+      
+      .main_main_footer{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      
+      .first_main_footer h1{
+        color: #1E1E1E;
+        font-family: Gilroy-Bold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        text-transform: capitalize;
+      }
+      
+      .first_main_footer p{
+        display: flex;
+        flex-direction: column;
+        color: #1E1E1E;
+        font-family: Gilroy-Medium;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+      }
+    
+      .first_footer{
+        display: flex;
+      }
+    
+      
+      .third_footer img{
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        margin: 0;
+      }
+      
+      .for_main_headlines li a{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #F6973F;
+        font-family: DM Sans;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.232px; 
+      }
+      
+      .last_footer{
+        display: flex;
+        width: 320px;
+        flex-wrap: wrap;
+        height: 50px;
+        justify-content: center;
+        margin: auto;
+      }
+      
+      
+      .last_second_footer{
+        display: flex;
+      }
+      
+      .last_second_footer p{
+        display: flex;
+        justify-content: center;
+        width: 150px;
+      }
+    
+
+    }
+  }
+
